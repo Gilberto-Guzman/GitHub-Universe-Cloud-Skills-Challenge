@@ -1,4 +1,10 @@
-# Configuración de Git
+# Instalación de Git.
+
+    sudo apt update
+    sudo apt upgrade
+    sudo apt install git
+
+# Configuración de Git.
 
     git --version
 
@@ -7,7 +13,7 @@
 
     git config --list
 
-# Configuración del repositorio de Git
+# Configuración del repositorio de Git.
 
     mkdir Cats
     cd Cats
@@ -15,7 +21,7 @@
     git status
     ls -a
 
-# Ayuda desde Git
+# Ayuda desde Git.
 
     git --help
     
