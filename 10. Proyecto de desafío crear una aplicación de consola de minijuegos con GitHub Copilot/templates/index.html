@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Piedra, Papel, Tijeras</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">    
+</head>
+<body>
+    <h1>Piedra, Papel, Tijeras</h1>
+    <form action="/jugar" method="post">
+        <label for="eleccion">Elige: </label>
+        <select id="eleccion" name="eleccion">
+            <option value="piedra">Piedra</option>
+            <option value="papel">Papel</option>
+            <option value="tijeras">Tijeras</option>
+        </select>
+        <input type="submit" value="Jugar">
+    </form>
+</body>
+</html>
